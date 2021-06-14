@@ -3,3 +3,8 @@
 # REST
 
 rest-api/node_modules
+
+# REACT
+
+react-client/node_modules
+react-client/build
