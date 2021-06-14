@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "io.assalielmehdi.greeter.grpc";
+option java_multiple_files = true;
+option java_outer_classname = "GreeterProto";
+
+package greeter;
+
+service Greeter {
+  rpc greet(GreetRequest) returns (GreetResponse) {}
+}
+
+message GreetRequest {
+  string name = 1;
+}
+
+message GreetResponse {
+  string greeting = 1;
+}

@@ -4,7 +4,12 @@
 
 rest-api/node_modules
 
-# REACT
+# React
 
 react-client/node_modules
 react-client/build
+
+# gRPC
+
+grpc-server/.idea
+grpc-server/target
